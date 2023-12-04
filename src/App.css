@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Ether';
+  src: url('./assets/Ether.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+
 #root {
   max-width: 1280px;
   padding: 0;
@@ -19,6 +25,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0e1111;
+  color: rgb(255, 34, 34);
+  font-family: 'Dhurjati', sans-serif;
 }
 .Container{
   position: absolute;
@@ -101,7 +109,9 @@ body {
 .section-title{
   font-size:x-large;
   padding: 3px 0;
-  margin: 0;
+  margin: 3px;
+  
+  font-family: 'Ether', sans-serif;
 }
 .img-1{
   position: relative;
@@ -132,14 +142,19 @@ body {
   max-width: 100%;
   height: 40vh;
   text-align: left;
-  
+  justify-content: center;
+  align-items: center;
   padding: 0;
   margin: 0;
 }
 p{
   font-size: large;
   padding: 0;
-  margin: 2px;
+  margin: 3px;
+}
+.About-Text{
+  margin: 5px;
+  padding: 5px;
 }
 .Music{
   display: flex;
@@ -162,17 +177,23 @@ p{
   background-color: #232b2b;
   padding: 0;
   margin: 0;
+  
 
 }
 .vertical-links li a {
   display: block;
   text-decoration: none;
   padding: 3px 0;
-  color: white;
+  color: rgb(255, 34, 34);
   text-align: left;
+  
 }
-a:hover{
-  color: #3b444b;
+.vertical-links li a:hover{
+  color: #0e1111;
+  background-color: white;
+  width: fit-content;
+  padding-right: 20px;
+  border-radius: 1px;
 }
 .img-2{
   display: flex;
@@ -199,4 +220,207 @@ a:hover{
   margin: 0;
   
 }
+.utube{
+  width:100%; 
+  height:40%; 
+}
+.factor-Canada{
+  display: none;
+}
+@media (min-width: 768px) {
+    body{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      background-color: #232b2b;
+    }
+    .Container{
+      top: 50%;
+      background-color: #b7d0d0;
+      left: 50%;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      transform: translate(-50%, -50%);
+      position: absolute;
+      justify-content:left; 
+      display: flex;
+      flex-direction: row;
+      max-width: 75vw;
+      width: 75vw;
+      min-width: 75vw;
+      height: 70vh;
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
+    .Section-1{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      max-height: 100%;
+      min-height: 100%;
+      width: 30%;
+      max-width: 30%;
+      min-width: 30%;
+      
+      padding: 0;
+      margin: 0;
+      
+    }
+    .Section-2{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      max-height: 100%;
+      min-height: 100%;
+      width: 40%;
+      max-width: 40%;
+      min-width: 40%;
+      
+      padding: 0;
+      margin: 0;
+    }
+    .Section-3{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      max-height: 100%;
+      min-height: 100%;
+      width: 30%;
+      max-width: 30%;
+      min-width: 30%;
+      padding: 0;
+      margin: 0;
+      
+    }
+    .Section-4{
 
+      display: none;
+      
+    }
+    .img-1{
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      height: 25vw;
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+    .Dates{
+      display: flex;
+      background-color: #0e1111;
+      position: relative;
+      max-width: 100%;
+      width: 100%;
+      height: 25vw;
+      flex-direction: column;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+    }
+    .About{
+      display: flex;
+      background-color: #0e1111;
+      position: relative;
+      max-width: 100%;
+      height: 40vh;
+      text-align: left;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+    .Music{
+      display: flex;
+      background-color: cadetblue;
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      height: 30vh;
+      background-color: #0e1111;
+      padding: 0;
+      margin: 0;
+    }
+    .Links{ 
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      height: 30vh;
+      background-color: #0e1111;
+      padding: 0;
+      margin: 0;
+      
+      
+    }
+    .vertical-links {
+      list-style-type: none;
+    }
+    .vertical-links li a {
+      display: block;
+      position: relative;
+      font-size: x-large;
+      text-decoration: none;
+      padding: 0px 3px;
+      
+      text-align: left;
+      
+    }
+    .vertical-links li a:hover{
+      color: #0e1111;
+      background-color: white;
+      width: fit-content;
+      padding-right: 20px;
+      border-radius: 1px;
+    }
+    .img-2{
+      display: flex;
+      background-color: cadetblue;
+      position: relative;
+      
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      
+      padding: 0;
+      margin: 0;
+    }
+    .img-3{
+      display: flex;
+      background-color: #0e1111;
+      position: relative;
+      object-fit: contain;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      padding: 0;
+      margin: 0;
+      
+    }
+    .utube{
+      display: flex;
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    .factor-Canada{
+      margin-top: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 200px;
+      width: 25vw;
+
+    }
+}
