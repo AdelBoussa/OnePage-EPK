@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Image1 from './assets/dscf1061.jpg';
-import Image2 from './assets/dscf1033.jpg';
+import Image1 from './assets/DSCF1061.jpg';
+import Image2 from './assets/DSCF1033.jpg';
 import Image3 from './assets/CanadaWordmark-Combined-CMYK-white.png';
 import Image4 from './assets/FACTOR-Combined-CMYK-White.png';
 import { FaInstagram, FaYoutube, FaTwitter, FaSoundcloud, FaApple, FaSpotify } from 'react-icons/fa';
