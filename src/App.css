@@ -20,6 +20,7 @@
 html {
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  background-color: #0e1111;
 }
 body {
   margin: 0;
@@ -133,7 +134,7 @@ body {
   flex-direction: column;
   text-align: left;
   padding: 0;
-  margin: 0;
+  margin: 5px;
 }
 .About{
   display: flex;
@@ -186,7 +187,7 @@ p{
   padding: 3px 0;
   color: rgb(255, 34, 34);
   text-align: left;
-  
+ 
 }
 .vertical-links li a:hover{
   color: #0e1111;
